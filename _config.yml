@@ -1,0 +1,16 @@
+# Jekyll configuration
+
+name: paintandplay-com-au
+description: Paint and Play website
+author:
+  name: Mike Causer
+  email: mcauser@gmail.com
+
+url: http://paint-and-play.github.io/paintandplay-com-au
+
+exclude: [".ruby-version", "Gemfile", "Gemfile.lock", "README.md"]
+
+sass:
+  style: compressed
+
+encoding: utf-8
