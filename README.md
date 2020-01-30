@@ -17,7 +17,7 @@ https://paint-and-play.github.io/paintandplay-com-au
 
 # Initial Setup
 
-* `rbenv install 2.3.1`
+* `rbenv install 2.5.3`
 * `gem install jekyll`
 * `gem install bundler`
 * `bundle install`

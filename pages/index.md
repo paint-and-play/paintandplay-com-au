@@ -4,7 +4,10 @@ title: Home
 permalink: /
 ---
 
-<div class="spacer"></div>
-<div class="message">
-  <div class="message__title">There's nothing here, yet.</div>
+<div class="splash">
+  <div>
+    <div class="paint">Paint</div>
+    <div class="play">& Play</div>
+  </div>
+  <div class="soon">Coming soon...</div>
 </div>

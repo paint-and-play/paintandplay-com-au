@@ -1,0 +1,55 @@
+---
+---
+
+// ^ dont remove these, otherwise jekyll wont convert this .scss -> .css
+
+@import url('https://fonts.googleapis.com/css?family=Ultra&display=swap');
+
+html,
+body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: -webkit-linear-gradient(135deg, #303 0%, #969 100%);
+  background: linear-gradient(135deg, #303 0%, #969 100%);
+  display: flex;
+  font-size: 14px;
+  font-family: 'Ultra', serif;
+  color: #fff;
+  text-shadow: 10px 10px 20px #000;
+}
+.ink {
+  background-image: url('../img/ink.svg');
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.splash {
+  text-align: center;
+}
+.paint {
+  font-size: 7rem;
+  line-height: 7rem;
+}
+.play {
+  font-size: 7rem;
+  line-height: 7rem;
+}
+.soon {
+  font-size: 2.2rem;
+  margin-top: 4rem;
+}
+.error {
+  font-size: 2em;
+}
