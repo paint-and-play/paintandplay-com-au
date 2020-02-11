@@ -5,9 +5,5 @@ permalink: /
 ---
 
 <div class="splash">
-  <div>
-    <div class="paint">Paint</div>
-    <div class="play">& Play</div>
-  </div>
-  <div class="soon">Coming soon...</div>
+  <img class="logo" src="/img/logo.svg" alt="Paint & Play">
 </div>

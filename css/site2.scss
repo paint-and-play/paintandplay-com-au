@@ -3,8 +3,6 @@
 
 // ^ dont remove these, otherwise jekyll wont convert this .scss -> .css
 
-@import url('https://fonts.googleapis.com/css?family=Ultra&display=swap');
-
 html,
 body {
   font-family: sans-serif;
@@ -16,19 +14,15 @@ body {
 body {
   margin: 0;
   padding: 0;
-  background: -webkit-linear-gradient(135deg, #303 0%, #969 100%);
-  background: linear-gradient(135deg, #303 0%, #969 100%);
+  background-image: url('/img/logo-bg-retina.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   font-size: 14px;
-  font-family: 'Ultra', serif;
   color: #fff;
   text-shadow: 10px 10px 20px #000;
 }
-.ink {
-  background-image: url('../img/ink.svg');
-  background-size: contain;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,14 +32,13 @@ body {
 .splash {
   text-align: center;
 }
-.paint {
-  font-size: 7rem;
-  line-height: 7rem;
+.logo {
+  width: 600px;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
-.play {
-  font-size: 7rem;
-  line-height: 7rem;
-}
+
 .soon {
   font-size: 2.2rem;
   margin-top: 4rem;
